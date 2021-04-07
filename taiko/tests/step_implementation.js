@@ -7,7 +7,7 @@ const { goto, waitFor, write, text, textBox, into, click, button, dropDown,
   });
   
   step("E valido o título <titulo>", async function(titulo) {
-    await waitFor(titulo);
+    await waitFor(titulo); //na linha 36 tem outra alternativa para validar texto
   });
   
   step("E preencho <nome> no campo nome", async function(nome) {
@@ -17,7 +17,7 @@ const { goto, waitFor, write, text, textBox, into, click, button, dropDown,
   });
   
   step("E preencho <frase> no campo de frase inspiradora", async function(frase) {
-    await write(frase, into(textBox({id: 'frase'})));
+    await write(frase, into(textBox({id: 'frase'}))); 
   });
   
   step("E seleciono <opcao> como opção da lista", async function(opcao) {
@@ -34,9 +34,8 @@ const { goto, waitFor, write, text, textBox, into, click, button, dropDown,
   });
   
   step("E valido a mensagem <msg>", async function(msg) {
-    //var textoBox = await $(`//div[@id='chatBox']`).text()
-    //console.log(textoBox)
-    assert.ok(await $(`//div[@id='chatBox']`).text() == msg)
+    var textoBox = await $(`//div[@id='chatBox']`).text()
+    assert.ok(textoBox == msg)
   });
   
   step("E clico no botão <btn>", async function(btn) {

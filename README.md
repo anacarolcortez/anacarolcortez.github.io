@@ -1,2 +1,2 @@
 # TaikoCamp
-Workshop de Taiko básico ministrado aos colegas
+Workshop básico de automação com Taiko e Gauge

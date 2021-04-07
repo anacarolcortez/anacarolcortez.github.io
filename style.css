@@ -1,0 +1,90 @@
+* {
+    padding:0;
+    margin:0;
+    border:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: #DC143C;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #e0e0ee;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.formulario {
+    width: 100%;
+    display: inline-block;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+#teletubby {
+    height: auto;
+}
+
+#nome {
+    width: 60%;
+}
+
+#frase {
+    width: 90%;
+}
+
+input[type="radio"]{
+    margin-left: 5px;
+}
+
+.botao {
+    width: 30%;
+    border-radius: 8px;
+    background-color: rgb(144, 96, 189);
+    margin: 20px;
+    padding: 10px;
+}
+
+.botao:hover{
+    opacity: 85%;
+}
+
+#chat {
+    width: 70px;
+    position: absolute;
+    z-index:99;
+}
+
+#chat:hover{
+    opacity: 93%;
+}
+
+.textoFinal {
+    align-items: center;
+    margin-left: 90px;
+}
+
+.chatBox {
+    width: 30%;
+    background-color: #dbdada;
+    position: absolute;
+    z-index:3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 60px;
+    display: none;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Taiko Camp</title>
+</head>
+<body>
+    <h1 id="titulo" class="titulo">Bem-vinde a esta página de treino!</h1>
+    <div class="container">
+        <form class="formulario">
+            <input id="nome" name="nome" type="text" class="input" placeholder="Nome">
+            <input id="frase" name="frase" type="text" class="input" placeholder="Digite uma frase inspiradora">
+            <p>Selecione um item da lista:</p>
+            <select id="opcao" name="opcao" class="input">
+                <option value="um">Um</option>
+                <option value="dois">Dois</option>
+                <option value="tres">Três</option>
+                <option value="quatro">Quatro</option>
+            </select>
+            <p>Escolha uma opção:</p>
+            <div class="radiobtn">
+                <input type="radio" name="certeza" value="sim" checked>Sim
+                <input type="radio" name="certeza" value="nao">Não
+            </div>
+            <button type="submit" class="botao" id="btnEntrar">ENVIAR</button>
+        </form>
+    </div>
+    <div class="container">
+        <h5 class="textoFinal"> Agradecemos a preferência! Fale conosco pelo chat.</h5>
+        <img id="chat" src="chat.png">
+        <div class="chatBox" id="chatBox">
+            No momento, todos os nossos atendentes estão ocupados. Por favor, tente novamente mais tarde!
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

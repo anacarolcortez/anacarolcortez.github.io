@@ -89,3 +89,12 @@ input[type="radio"]{
     margin-left: 60px;
     display: none;
 }
+
+.footer {
+    margin-top: 20px;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 12px;
+}

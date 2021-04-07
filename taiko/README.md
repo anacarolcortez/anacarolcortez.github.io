@@ -3,3 +3,7 @@ Para trabalhar com Taiko, você vai precisar:
 * Instalar o Gauge
 * Instalar o VS Code (tem um plugin de Gauge bacana nessa IDE que facilita bastante a criação do projeto)
 * Instalar o Taiko globalmente na máquina (ou instalá-lo como dependência do seu projeto)
+
+Página oficial do Gauge: https://gauge.org/
+</br>
+Página oficial do Taiko: https://taiko.dev/

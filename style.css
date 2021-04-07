@@ -35,7 +35,7 @@
     margin-bottom: 20px;
 }
 
-#teletubby {
+#opcao {
     height: auto;
 }
 
@@ -55,7 +55,8 @@ input[type="radio"]{
     width: 30%;
     border-radius: 8px;
     background-color: rgb(144, 96, 189);
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
